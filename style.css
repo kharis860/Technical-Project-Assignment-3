@@ -1,0 +1,125 @@
+/* header */
+.head {
+  display: flex;
+  padding-top: 50px;
+  max-width: 100%;
+}
+/* nama website */
+.name h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+.name h1 {
+  font-size: 75px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+/* form pencarian */
+.search {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  /* padding-left: 625px; */
+  padding-left: 49%;
+}
+/* responsive */
+@media (max-width: 1050px) {
+  .search {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    /* padding-left: 625px; */
+    padding-left: 32%;
+  }
+}
+@media (max-width: 840px) {
+  .search {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    /* padding-left: 625px; */
+    padding-left: 18%;
+  }
+}
+@media (max-width: 767px) {
+  .head {
+    display: block;
+    padding-top: 50px;
+  }
+  /* .name {
+    display: grid;
+    text-align: center;
+  } */
+  .name h1 {
+    display: block;
+    font-size: 65px;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+  .search {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    /* padding-left: 625px; */
+    padding-left: 25%;
+  }
+  #form1 {
+    width: 100%;
+  }
+  .search input {
+    width: 50%;
+  }
+}
+@media (max-width: 572px) {
+  .head {
+    display: block;
+    padding-top: 50px;
+  }
+  .name h1 {
+    display: block;
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+  .search {
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* padding-left: 625px; */
+    padding-left: 25%;
+  }
+  .search input {
+    width: 50%;
+  }
+}
+/* konten urama: card */
+#main {
+  padding-left: 100px;
+  padding-right: 135px;
+}
+.row {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+/* mengatur komponen di dalam card */
+.rating {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  position: relative;
+}
+.titleItem {
+  font-size: 1.8rem;
+}
+.card-title {
+  font-size: 1.8rem;
+}
+.dateItem {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.ratingItem {
+  display: grid;
+  font-weight: bold;
+  align-items: center;
+}
